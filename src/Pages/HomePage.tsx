@@ -4,12 +4,12 @@ const HomePage = () => {
   const data = fishPondAPI
     .getAll()
     .then((result) => {
-      console.log(result?.data);
+      // console.log(result?.data);
     })
     .catch((err) => {
       console.log(err);
     });
-  console.log(data);
+  // console.log(data);
 
   return <div>HomePage</div>;
 };
