@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Headers />
       <Router />
+      {/* <LocationPicker /> */}
       <Footers />
     </BrowserRouter>
   );

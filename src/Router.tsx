@@ -1,10 +1,12 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
 import "./App.css";
 
 const Router = () => {
+  const location = useLocation();
+  console.log(location);
   return (
     <div className="container">
       <Routes>
